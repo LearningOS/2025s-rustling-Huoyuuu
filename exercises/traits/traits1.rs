@@ -32,7 +32,7 @@ mod tests {
         assert_eq!(String::from("Foo").append_bar(), String::from("FooBar"));
     }
 
-    #[test_case]
+    #[test]
     fn is_bar_bar() {
         assert_eq!(
             String::from("").append_bar().append_bar(),
